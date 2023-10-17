@@ -4,40 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joker</title>
+    <link rel="styesheet" href="styles.css">
+    <link rel="icon" href="./images/icon.jpg">
 </head>
 <body>
              <!--Header start-->
     <header>
-        <nav>
-            <a href="#">
-                  <img src="./images/download.png">
-            </a>
-            <div class="nav-bar">
-                <div class="nav-list">
-                    <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>Info</li></a>
-                        <a href="#"><li>Contact</li></a>
-                    </ul>
+        <secton id="home">
+            <nav>
+                <a href="#">
+                      <img src="./images/download.png">
+                </a>
+                <div class="nav-bar">
+                    <div class="nav-list">
+                        <ul>
+                            <a href="#home"><li>Home</li></a>
+                            <a href="#images"><li>Images</li></a>
+                            <a href="#biography"><li>Biography</li></a>
+                            <a href="#signup"><li>Signup</li></a>
+                        </ul>
+                    </div>
                 </div>
+            
+            </nav>
+            <div class="hero">
+              <h1>WELCOME!</h1>
+              <p>This website is used to show the top 4 joker <br>characters of all time.</p>
+              <button>Sign up</button>
+              <br><br>
             </div>
-        
-        </nav>
-        <div class="hero">
-          <h1>WELCOME!</h1>
-          <p>This website is used to show the top 4 joker <br>characters of all time.</p>
-          <button>Sign up</button>
-          <br><br>
-        </div>
-        <div class="hero-img">
-            <img src="./images/Hero.jpg" width="299 px" height="280px">
-        </div>
+            <div class="hero-img">
+                <img src="./images/Hero.jpg" width="299 px" height="280px">
+            </div>
+        </secton>
     </header>
                <!--End Header-->
 
                <!--Main start-->
     <main>
-        <section class="image">
+        <section id="images">
             <h2>Top 4 Jokers of all time.</h2>
           <div class="img-container">
              <div class="img">
@@ -66,11 +71,21 @@
         </section>
 
     
-        <section class="biography">
+        <section id="biography">
             <div class="bio-container">
                 <h2>Biography of the <strong>Joker</strong> character</h2>
                 <p>The Joker has undergone many revisions since his 1940 debut. The most common interpretation of the character is that of a man who, while disguised as the criminal Red Hood, is pursued by Batman and falls into a vat of chemicals that bleaches his skin, colors his hair green and his lips red, and drives him insane. The reasons why the Joker was disguised as the Red Hood and his identity before his transformation have changed over time. The character was introduced in Batman #1 (1940), in which he announces that he will kill three of Gotham's prominent citizens. Although the police protect his first announced victim, millionaire Henry Claridge, the Joker had poisoned him before making his announcement and Claridge dies with a ghastly grin on his face. Batman eventually defeats him, sending him to prison. The Joker commits crimes ranging from whimsical to brutal, for reasons that, in Batman's words, "make sense to him alone". Detective Comics #168 (1951) introduced the Joker's first origin story as the former Red Hood: a masked criminal who, during his final heist, vanished after leaping into a vat of chemicals to escape Batman. His resulting disfigurement drove him insane and led him to adopt the name "Joker", from the playing card figure he came to resemble. The Joker's Silver Age transformation into a figure of fun was established in 1952's "The Joker's Millions". In this story, the Joker is obsessed with maintaining his illusion of wealth and celebrity as a criminal folk hero, afraid to let Gotham's citizens know that he is penniless and was tricked out of his fortune. The 1970s redefined the character as a homicidal sociopath. "The Joker's Five-Way Revenge" has the Joker taking violent revenge on the former gang members who betrayed him, while "The Laughing Fish" portrays him chemically disfiguring fish so they will share his trademark grin, hoping to profit from a copyright, and killing bureaucrats who stand in his way.</p>
                 <p class="source">-wikipedia</p>
+            </div>
+        </section>
+
+        <section id="signup">
+            <div class="signup">
+                <h3>Want to know more?</h3>
+                <p>You can signup for free and watch the movies of these legendery character.</p>
+                <div class="button">
+                    <button>Signup</button>
+                </div>
             </div>
         </section>
     </main>
@@ -78,7 +93,7 @@
 
               <!--Footer start-->
     <footer>
-
+       <p>copyright &copy; The odin project 2023</p>
     </footer>
               <!--End footer-->     
 </body>
