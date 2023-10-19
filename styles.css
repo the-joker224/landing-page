@@ -252,7 +252,13 @@ span{
     color: white;
 }
 
+/*End of signup section*/
 
+.footer{
+    background-color: dimgray;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
